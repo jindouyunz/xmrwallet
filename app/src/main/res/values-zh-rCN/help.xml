@@ -174,24 +174,19 @@
     ]]></string>
 
     <string name="help_create_ledger"><![CDATA[
-        <h1>Create Wallet - Ledger</h1>
-        <p>You want to recover your wallet from your Ledger Nano S device.</p>
-        <p>Your secret keys never leave the Ledger device, so you need it plugged in every
-        time you want to access your wallet.</p>
-        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the Android
-        device. Use a strong password - even better use a passphrase.</p>
-        <p>Enter the block number of the first transaction used for this address in the
-        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
-        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+        <h1>创建钱包 - Ledger</h1>
+        <p>如果你想要从Ledger Nano S中恢复你的钱包。</p>
+        <p>你的密钥会一直保存在Ledger设备中，所以你每次访问钱包的时候都需要插入Ledger。</p>
+        <p>请输入一个唯一的钱包名和密码。密码是用来保护你安卓设备上的数据。请使用高强度的密码，使用口令更佳。</p>
+        <p>请在\"Restore Height\"中输入你在这个地址上的第一笔交易所在的区块高度。你也可以使用YYYY-MM-DD的格式来输入日期。如果你不是十分确定，也可以
+        选择输入一个估算的日期或区块高度，但这个日期或区块高度必须是在你第一次使用该地址<em>之前</em>之前。</p>
     ]]></string>
 
     <string name="help_wallet"><![CDATA[
-        <h1>钱包介面</h1>
-        <h2>Street Mode</h2>
-        <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
-        balance is not shown on any screen so you can safely use your wallet on the street, a pub or
-        other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Moneroj!</p>
+        <h1>钱包界面</h1>
+        <h2>公共场合模式</h2>
+        <p>你可以在菜单栏或Gunther顶部图标中激活/禁用公共场合模式。在该模式下，任何页面都不会显示你的余额，你可以放心地在街头、酒吧等公共场合
+        使用你的钱包。它还将隐藏过去的交易记录，显示新的交易记录，以方便确认你已成功发送/接受门罗币！</p>
         <h2>扫描</h2>
         由于Monero的交易是隐私保护的，因此每当你开启Monerujo钱包时我们必须
         在区块链上扫描是否有最新的Monero被传送到你的钱包中，将会储存仅与你钱包相关的信息在设备中。
@@ -206,25 +201,17 @@
     ]]></string>
 
     <string name="help_node"><![CDATA[
-        <h1>Nodes</h1>
-        <h2>TL;DR</h2>
-        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow Monerujo
-        to choose the best one for you!</p>
-        <h2>What&apos;s a Node?</h2>
-        <p>Monerujo uses a Remote Node (sometimes also called Daemon) to communicate with
-        the Monero Network without having to download and store a copy of the
-        whole blockchain itself.<p>
-        <h2>Node List</h2>
-        <p>If the list is empty, you can either add new nodes manually or let Monerujo
-        scan the network for you. Or both. Read on&#8230;</p>
-        <p>The node list shows all currently known nodes. Additionally, the timestamp
-        of the latest block known to each node is shown under the node name. An icon
-        representing the node&apos;s response behaviour
-        (which indicates the level of connectivity to be expected)
-        is shown next to each node.</p>
-        <p>Any node in the list can be bookmarked for later use.
-        Nodes which are not bookmarked will be forgotten.<p>
-        <p>Monerujo will choose the optimal bookmarked node each time you use it.
+        <h1>节点</h1>
+        <h2>该文较长</h2>
+        <p>下拉以刷新节点列表 &amp; 书签 3&#8211;你可以在5个节点中选择最适合的一个！</p>
+        <h2>什么是节点？</h2>
+        <p>Monerujo使用远程节点来与门罗区块链通信，无需下载和储存全部的区块链数据。<p>
+        <h2>节点列表</h2>
+        <p>如果该列表上没有任何节点，那么你可以选择手动添加新节点，或者让Monerujo来为你扫描网络，或者两种方法都尝试下。继续阅读&#8230;</p>
+        <p>节点列表将显示所有已知的节点。此外，节点名下方会显示它们已同步的最新区块的时间戳。节点旁边还有一个图标，显示节点目前的响应状态
+        （你可以以此判断该节点是否易于连接）</p>
+        <p>你也可以将节点加入书签中，以方便之后的使用。没有加入书签的节点将会被遗忘。<p>
+        <p>Monerujo每次将会在节点书签列表中选择一个最优的节点。
         It does this by checking the blockheight (how up-to-date
         is the node?) as well as the response behaviour (how fast does the node respond to requests?).</p>
         <p>The list is sorted by these characteristics, so the top node would be the one Monerujo
